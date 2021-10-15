@@ -1,0 +1,2 @@
+ensRMSD=0.267253866354 A     (masked)
+ensRMSD=5.50321178327 A     (unmasked - not recommended)
