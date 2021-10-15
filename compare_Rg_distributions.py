@@ -39,9 +39,9 @@ def calc_Rg_distr(filename, Npairs_res, name):
 
 
 ens_type = "ensemble" # "ensemble" or "random_pool"
-data_folder = "data/"+ens_type+"/"
 res_folder = "results/"+ens_type+"/"
 ensemble = "PED00001e001"
+ens_type2 = "ensemble" # "ensemble" or "random_pool"
 ensemble2 = "PED00001e002"
 atomtype = "CA"
 first_res = -1
@@ -49,7 +49,7 @@ last_res = 90
 
 Npairs_res = (last_res*(last_res-1))/2
 filename1 = "results/"+ens_type+"/"+ensemble+"_"+atomtype+"_distance_distributions.txt"
-filename2 = "results/"+ens_type+"/"+ensemble2+"_"+atomtype+"_distance_distributions.txt"
+filename2 = "results/"+ens_type2+"/"+ensemble2+"_"+atomtype+"_distance_distributions.txt"
 Rg_array1 = calc_Rg_distr(filename1, Npairs_res, ensemble)
 print "vs"
 Rg_array2 = calc_Rg_distr(filename2, Npairs_res, ensemble2)
