@@ -20,11 +20,9 @@ def read_distr(filename):
 	infile.close()
 	return myhash
 
-
-
 ens_type = "ensemble" # "ensemble" or "random_pool"
-res_folder = "results/"+ens_type+"/"
 ensemble = "PED00001e001"
+ens_type2 = "ensemble" # "ensemble" or "random_pool"
 ensemble2 = "PED00001e002"
 atomtype = "CA"
 first_res = -1
@@ -33,7 +31,7 @@ last_res = 90
 
 filename1 = "results/"+ens_type+"/"+ensemble+"_"+atomtype+"_distance_distributions.txt"
 myhash = read_distr(filename1)
-filename2 = "results/"+ens_type+"/"+ensemble2+"_"+atomtype+"_distance_distributions.txt"
+filename2 = "results/"+ens_type2+"/"+ensemble2+"_"+atomtype+"_distance_distributions.txt"
 myhash2 = read_distr(filename2)
 
 outfilename = "results/"+ens_type+"/"+ensemble+"-"+ensemble2+"_"+atomtype+"_dist_distrib_differences.txt"
