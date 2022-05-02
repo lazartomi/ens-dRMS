@@ -34,7 +34,7 @@ The distance-based metrics are complemented with several classical measures appl
   It plots the RMSD for pentapeptide regions of a sliding window. For this, the script needs the output of the previous script as input (plus first and last amino acids of the construct). The output plot is a lineplot of the mean and the 95 percentiles with grey shade along the sequence.
   
 
-# Google Colab Notebook:
+## Google Colab Notebook:
 
 ens_dRMS_Google_Colab.ipynb
 
