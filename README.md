@@ -5,7 +5,7 @@ To address the challenge of comparing ensembles of disordered proteins, we devel
 
 The distance-based metrics are complemented with several classical measures applied to individual ensembles. The local backbone variability is quantified by the distributions of the average backbone RMSD values of 5-residue segments along the polypeptide, computed over pairs of conformations in each ensemble. Global conformational parameters are also quantified from the distribution the radius of gyration (Rg) of conformations in individual ensembles.
 
-The analysis pipeline is made available as a Google Colab notebook (scroll to the bottom) and as separate scripts for local execution.
+<b>The analysis pipeline is made available as a Google Colab notebook (scroll to the bottom) and as separate scripts for local execution.</b>
 
 Desciption of the scripts (recommended to execute in the following order):
 
