@@ -1,11 +1,11 @@
 # ens-dRMS
 
-
 To address the challenge of comparing ensembles of disordered proteins, we developed superposition-independent measures for evaluating the local and global similarity between two ensembles. The local similarity between specific regions of the polypeptide is evaluated from the differences between the distance distributions of individual residue pairs, and their statistical significance.  The global similarity is captured by the ens-dRMS measure, an RMSD-like quantity representing the root mean square difference between the medians of the inter-residue distance distributions of the two ensembles.
 
 
 The distance-based metrics are complemented with several classical measures applied to individual ensembles. The local backbone variability is quantified by the distributions of the average backbone RMSD values of 5-residue segments along the polypeptide, computed over pairs of conformations in each ensemble. Global conformational parameters are also quantified from the distribution the radius of gyration (Rg) of conformations in individual ensembles.
 
+The analysis pipeline is made available as a Google Colab notebook (scroll to the bottom) and as separate scripts for local execution.
 
 Desciption of the scripts (recommended to execute in the following order):
 
@@ -32,4 +32,11 @@ Desciption of the scripts (recommended to execute in the following order):
 6. plot_local_RMSDs.py
 
   It plots the RMSD for pentapeptide regions of a sliding window. For this, the script needs the output of the previous script as input (plus first and last amino acids of the construct). The output plot is a lineplot of the mean and the 95 percentiles with grey shade along the sequence.
+  
+
+# Google Colab Notebook:
+
+ens_dRMS_Google_Colab.ipynb
+
+  All the pipeline steps are realized in the notebook (with minimal changes) for accessibility and easy exploration of the pipeline elements.
   
