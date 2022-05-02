@@ -7,7 +7,7 @@ The distance-based metrics are complemented with several classical measures appl
 
 <b>The analysis pipeline is made available as a Google Colab notebook (scroll to the bottom) and as separate scripts for local execution.</b>
 
-<i>Desciption of the scripts (recommended to execute in the following order):</i>
+<u>Desciption of the scripts (recommended to execute in the following order):</u>
 
 1. dist_distrib_CA_fast.py
 
